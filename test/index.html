@@ -13,7 +13,8 @@
     media="only screen and (max-device-width: 480px)" >
   <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
   <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
-  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="libraries/widgets/quiz/css/demo.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
 
   
   <!-- Grab CDN jQuery, fall back to local if offline -->
@@ -66,8 +67,19 @@
 </slide>
 
 <slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Question 1</h2>
+  </hgroup>
   <article data-timings="">
-    
+    <p>What is your favorite color?</p>
+
+<ol>
+<li><p>Blue</p></li>
+<li><p>Red</p></li>
+<li><p><em>Yellow</em></p></li>
+<li><p>Green</p></li>
+</ol>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -90,7 +102,7 @@
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title=''>
+        data-slide=3 title='Question 1'>
          3
       </a>
     </li>
@@ -103,7 +115,10 @@
   <![endif]-->
 </body>
   <!-- Load Javascripts for Widgets -->
-  
+  <script src="libraries/widgets/quiz/js/jquery.quiz.js"></script>
+<script src="libraries/widgets/quiz/js/mustache.min.js"></script>
+<script src="libraries/widgets/quiz/js/quiz-app.js"></script>
+
   <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({

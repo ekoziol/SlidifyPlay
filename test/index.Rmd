@@ -6,7 +6,7 @@ job         : To Learn
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
-widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
+widgets     : [mathjax, quiz]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
@@ -26,4 +26,18 @@ Look at me go!
 
 ---- .class #id
 
+## Question 1
 
+What is your favorite color?
+
+1. Blue
+
+2. Red
+
+3. _Yellow_
+
+4. Green
+
+***.hint African or European swallow?
+
+***.explanation Go watch Monty Python's Holy Grail
